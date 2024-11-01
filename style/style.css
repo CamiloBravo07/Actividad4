@@ -155,7 +155,7 @@ button:hover {
     nav ul {
         flex-direction: column;
         align-items: center;
-        font-size: 18px; /* Ajustar el tamaño de fuente */
+        font-size: 18px;
     }
 
     nav ul li {
@@ -167,10 +167,9 @@ button:hover {
     }
 }
 
-/* Media Query para pantallas muy pequeñas (teléfonos) */
 @media (max-width: 480px) {
     nav ul {
-        font-size: 16px; /* Tamaño de fuente más pequeño */
+        font-size: 16px; 
     }
 
     nav ul li a {
