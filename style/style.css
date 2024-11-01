@@ -186,6 +186,7 @@ color: white;
     nav ul li a {
         padding: 10px 20px;
     }
+    
     nav ul li a:hover {
         color: salmon;
     }
@@ -198,5 +199,9 @@ color: white;
 
     nav ul li a {
         padding: 8px 16px;
+    }
+    
+    nav ul li a:hover {
+        color: salmon;
     }
 }
