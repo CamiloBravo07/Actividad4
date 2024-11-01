@@ -1,5 +1,4 @@
-html body{
-    font-family: Arial, Helvetica, sans-serif;
+*{
     margin: 0;
     padding: 0;
 }
@@ -26,7 +25,7 @@ nav ul li a{
 
 nav ul li a:hover {
     color: salmon;
-  }
+}
 
 img{
     width: 50%;
@@ -98,7 +97,6 @@ img{
 }
 
 .clase-info h3 {
-    margin: 10px 0;
     color: #333;
 }
 
@@ -109,7 +107,6 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 10px;
     transition: background-color 0.3s;
     width: 100%;
 }
