@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 nav{
     height: 20vh;
     display: flex;
@@ -126,16 +121,17 @@ button:hover {
     color: red;
 }
 
-.sectionchef{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
+.sectionchef {
+    min-height: 100vh;
     background-image: url(../img/chef_bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sectionchef a{
