@@ -121,25 +121,6 @@ button:hover {
     color: red;
 }
 
-.sectionchef {
-    min-height: 100vh;
-    background-image: url(../img/chef_bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sectionchef a{
-    background-color: salmon;
-    text-decoration: none;
-    color: white;
-}
-
 .textofinal{
     margin-top: 5%;
     font-size: 20px;
@@ -163,6 +144,19 @@ color: white;
 
 .image{
     width: 21%;
+}
+
+.sectionchef{
+    height: 100vh;
+    background-image: url(../img/chef_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sectionchef a{
+    background-color: salmon;
+    text-decoration: none;
+    color: white;
 }
 
 @media (max-width: 768px) {
